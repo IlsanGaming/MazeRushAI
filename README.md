@@ -6,9 +6,9 @@
 ## 🎮 주요 기능
 - **랜덤 미로 생성**: 게임이 시작될 때마다 무작위로 미로가 생성됩니다.
 - **플레이어 vs AI 경쟁**: 플레이어와 AI는 동시에 출발하여 출구를 향해 경쟁합니다.
-- **AI 경로 탐색**: AI는 **다익스트라(Dijkstra's Algorithm)**를 사용하여 최단 경로를 찾아갑니다.
+- **AI 경로 탐색**: AI는 다익스트라(Dijkstra's Algorithm)를 사용하여 최단 경로를 찾아갑니다.
 - **유도 미사일 기능**: 플레이어가 일정 횟수 이동한 후, 유도 미사일이 발사되어 플레이어를 추적합니다.
-  - 유도 미사일은 **플로이드-워셜(Floyd-Warshall Algorithm)**을 사용해 플레이어의 위치를 추적합니다.
+  - 유도 미사일은 플로이드-워셜(Floyd-Warshall Algorithm)을 사용해 플레이어의 위치를 추적합니다.
   - 미사일은 벽을 피해 미로의 길을 따라 이동합니다.
   
 ## 🕹️ 조작 방법
@@ -25,7 +25,7 @@
 ## 🛠️ 설치 및 실행 방법
 1. 이 저장소를 클론합니다.
     ```bash
-    git clone https://github.com/your-username/maze-rush-ai-vs-player.git
+    git clone https://github.com/IlsanGaming/MazeRushAI
     cd maze-rush-ai-vs-player
     ```
 2. 프로젝트를 컴파일합니다.
